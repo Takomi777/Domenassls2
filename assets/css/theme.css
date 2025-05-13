@@ -97,7 +97,7 @@ h6,
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #f8f9fa !important;
 }
 
 /* Color Systems */
@@ -542,7 +542,7 @@ a.bg-primary:focus {
 .btn-light:focus,
 .btn-light.focus {
   color: #33374B;
-  background-color: white;
+  background-color: #f8f9fa;
   border-color: #fefeff;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -887,7 +887,9 @@ background-color: #eeeded;
     align-items: center;
   }
 }
-
+div {
+  background-color: f8f9fa;
+}
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-nav {
     margin-top: 0;
@@ -1321,7 +1323,7 @@ background-color: #eeeded;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
   /* Specified properties for transitions */
-  color: white;
+  color: #f8f9fa;
   margin-top: 2rem;
   top: 6rem;
 }
@@ -1884,7 +1886,7 @@ p span {
 .form-contact button {
   background-color: #FF7000;
   border: none;
-  color: white;
+  color: #f8f9fa;
   padding: 0.625rem 1.25rem;
   /* Adjusted for responsiveness */
   font-size: 16px;
@@ -2242,7 +2244,7 @@ p span {
 
 .gallery-caption {
   background: rgba(0,0,0,0.6);
-  color: white;
+  color: #f8f9fa;
   text-align: center;
   padding: 10px;
 }
