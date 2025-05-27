@@ -109,14 +109,34 @@ a.bg-primary:hover,
 a.bg-primary:focus {
   background-color: #FF7000 !important;
 }
+.realizacje-btn {
+  margin-top: 130px;
+  display: inline-block;
+  font-family: 'Arial', sans-serif; /* Zmień, jeśli używasz innej czcionki */
+  font-weight: bold;
+  font-size: 24px;
+  color: #FF7000;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 10px 25px;
+  text-decoration: none;
+  background-color: transparent;
+  transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+  transform: scale(1);
+}
 
+.realizacje-btn:hover {
+  background-color: white;
+  color: #FF7000;
+  text-decoration: none;
+  transform: scale(1.1);
+}
 
 .btn {
   padding: 10px 28px;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-
 .btn:focus,
 .btn.focus {
   -webkit-box-shadow: none;
